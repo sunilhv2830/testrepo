@@ -1,0 +1,41 @@
+.colors{
+    background-image: radial-gradient(white,lightblue,lightgrey);
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    text-decoration: overline;
+}
+
+h1{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 3px 3px 6px rgba(22, 9, 90, 0.9);
+    text-align: center;
+}
+
+div{
+    width: 100px;
+    height:100px;
+    box-shadow: 0 4px 7px 0 grey;
+    padding: 5px;
+    margin: 5px;
+}
+
+.voilet{
+    background-image: linear-gradient(to right, white, violet );
+}
+
+.red{
+    background-image: radial-gradient(white,red,darkred);
+}
+
+.orange{
+    background-image: radial-gradient(white 5%,yellow 20%, orange 60%);
+}
+
+.yellow{
+    background-image: linear-gradient(white, yellow,gold);
+}
+
+.green{
+    background-image: linear-gradient(white, lightgreen, green);
+}

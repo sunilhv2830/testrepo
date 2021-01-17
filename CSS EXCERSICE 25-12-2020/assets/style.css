@@ -1,0 +1,77 @@
+.head{
+    padding:20px;
+}
+
+.title{
+    font-size: 3rem;
+}
+
+.link{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.cartbag{
+    color: #EEEEEE;
+    transform: skew(29deg,20deg,15deg);
+}
+
+.searchbox{
+    width: 50%;
+    padding: 5px;
+    background-color: #EEEEEE;
+    border-style: none;
+}
+
+img{
+    height: 300px;
+}
+
+.brand-box{
+    color: white;
+    min-height: 200px; 
+    padding: 10px;
+}
+
+.blue{
+    background-color: #46B1E3;
+}
+
+.violet{
+    background-color: #61236E;
+}
+
+.green{
+    background-color: #86CF07;
+}
+
+.phone-img{
+    height: 250px;
+    
+}
+
+.rating{
+    color: #F3C00F;
+}
+
+button{
+    border: none;
+}
+
+.blog-image{
+    width: 250px;
+    height: 200px;
+}
+
+.footer-img{
+    height: 120px;
+    width: 100px;
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
+.bold{
+    font-size: large;
+}

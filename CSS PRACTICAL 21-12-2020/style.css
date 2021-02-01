@@ -18,6 +18,7 @@ div{
     box-shadow: 0 4px 7px 0 grey;
     padding: 5px;
     margin: 5px;
+    border-radius: 5%;
 }
 
 .voilet{

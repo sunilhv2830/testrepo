@@ -1,3 +1,8 @@
+
+const studentDetails = { name: 'John', class: '3', section: 'B' }
+displayStudentDetails(studentDetails);
+
+
 /*ITERTIONS AND CONDITIONAL ASSIGNMENT
 
 1) Write a function to calculate Sum and Average an array element. 
@@ -7,16 +12,16 @@ Output:
 Sum: 100
 Average: 25*/
 
-let sumAndAverage = arr =>{
-	let sum=0,average;
-	for(let i=0;i<arr.length;i++){
-		sum += arr[i];
-		average = sum/arr.length;
-	}
-console.log("Sum:",sum);
-console.log("Average:",average);
-}
-sumAndAverage([10,20,30,40]);
+// let sumAndAverage = arr =>{
+// 	let sum=0,average;
+// 	for(let i=0;i<arr.length;i++){
+// 		sum += arr[i];
+// 		average = sum/arr.length;
+// 	}
+// console.log("Sum:",sum);
+// console.log("Average:",average);
+// }
+// sumAndAverage([10,20,30,40]);
 
 /*--------------------------------------------------
 2) Create a function to multiply all of the values in an array by the amount of values in the
@@ -43,6 +48,9 @@ Output:
 5 X 1 = 5
 5 X 2 = 10 . . .
 5 X 10 = 50 
+
+//we are going to declare the assining value , then while condition inside it we write statements it need 
+//to axecute it runs the loop until the condition is satidfied
 
 let tableUsingWhile = multiplicant =>{
 	let i=1;
@@ -84,9 +92,10 @@ let sumOfMultiDimensional = arr =>{
 	let sum = 0,sum1=0;
 	let resultArray=[];
 	for(let i=0;i<arr.length;i++){
-		
+		sum += arr[i];
+		resultArray.push(sum);
 		for(let j=0;j<arr[i].length;j++){
-		sum += arr[i][j];
+		
 		
 	}
 	}
